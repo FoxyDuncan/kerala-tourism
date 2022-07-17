@@ -1,0 +1,5 @@
+login page
+signup page
+homepage
+district page
+any 5 individual page for each liking from district page

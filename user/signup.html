@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="heading">Kerala Tourism</li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../districts/">Explore</a></li>
+                <li><a href="../index.html/#contact">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+
+        <form>        
+            <h2>Create Account</h2>
+            <input type="text" name="fname" placeholder="first name" id="fname" class="name" required>
+            <input type="text" name="lname" placeholder="last name" id="lname" class="name">
+            <input type="text" name="mail" placeholder="e-mail" od="email" id="mail">
+            <input type="text" name="password" placeholder="create password" class="password" id="pass" required>
+            <input type="text" placeholder="Confirm" class="password" id="pass-none" required>
+            <input type="button" value="Sign Up" id="su-btn" onclick="signin()">
+        </form>
+    </div>
+</body>
+</html>

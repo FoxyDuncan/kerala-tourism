@@ -1,0 +1,142 @@
+/* about - whole */
+/* .about {
+    background-color:rgb(26, 26, 41);
+    margin:0px;
+    padding:20px;
+    border-top:1px white solid;
+    color:white;
+    text-align:center;
+}
+/* about -links */
+/* .about a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+}
+.about a:hover{
+    color:white;
+    text-decoration:underline;
+} */
+/* about -input */
+/* .about input:focus {
+    outline:none;
+} */
+/* about login container */
+/* .login {
+    height:max-content;
+    padding:30px;
+    border:1px solid white;
+}
+.login span {
+    position:relative
+}
+.login p{
+    text-align:center;
+    padding:20px;
+}
+.login *{
+    margin:auto;
+}  */
+/* about ends here */
+/* header starts here */
+header {
+    background-color:rgba(255, 166, 0, 0.668);
+    max-height:max-content;
+    height:max-content;
+    width:100%;
+    min-width:100%;
+    display:inline-block;
+}
+header div {
+    padding:20px;
+}
+.header {
+    display:inline-block;
+    cursor: default;
+    min-width: min-content;
+}
+header sub {
+    font-size:10px;
+}
+.header h1 {
+    border-bottom:2px solid black;
+    max-width:max-content;
+    white-space: nowrap;
+}
+.links {
+    padding:30px;
+}
+.links a{
+    text-decoration:none;
+    color:black;
+}
+.links {
+    text-align:center;
+}
+.links a:hover{
+    color:initial;
+}
+
+/* header ends here */
+/* section starts here */
+.para {
+    margin:0px;
+    text-align:center;
+    padding:0px;
+
+}
+.para p{
+    background-color:rgba(29, 31, 75, 0.538);
+    padding:20px;
+}
+.introduction {
+    margin-top:15px;
+}
+body {
+    max-width:100%;
+    padding:0px;
+}
+*{
+    margin:0px;
+}
+.dropdown-menu li{
+    text-align:center; 
+}
+.about {
+    background-color:rgba(255, 179, 37, 0.668);
+    color:black;
+}
+/* adjust the overflow-x */
+html {
+    overflow-x: hidden;
+}
+.login form input:focus{
+    outline: none;
+}
+.login form span{
+    position:relative;
+}
+.login form p{
+    padding-top:10px;
+    font-family:'Fascinate', cursive;
+}
+.about .col-md-4{
+    padding:3%;
+}
+.btn-color {
+    background-color:aliceblue
+}
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+/* footer starts here */
+footer {
+    background-color:rgb(26, 26, 41);
+    padding:0px
+}
+footer div{
+    padding:20px;
+    text-align:center;
+    color:white;
+    border-collapse:collapse;
+    border:1px solid rgb(255,255,255,0.3);
+}

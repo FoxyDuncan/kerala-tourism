@@ -1,0 +1,75 @@
+body {
+    margin:0px;
+    padding:0px;
+    max-width:100%;
+    overflow-x:hidden;
+    background-image:linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.3)),url("../img/paul-vincent-roll-c61jL_NpAn8-unsplash.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-position:center;
+    min-width:670px;
+}
+header li {
+    list-style:none;
+    color:black;
+    display: inline;
+}
+#heading {
+    font-size:40px;
+}
+header li a{
+    color:black;
+    margin:0px 20px;
+}
+form {
+    width:50%;
+    margin:0px auto;
+    background-color:#fff5;
+    padding:30px 20px;
+    text-align:center;
+    border-radius:20px;
+    margin-top:25vh;
+}
+h2 {
+    font-weight:100;
+    font-family:monospace,cursive;
+    text-decoration:underline yellowgreen solid 1px;
+}
+h2:hover {
+    text-decoration:4px underline solid yellowgreen;
+    transition: 1s linear;
+}
+input:focus {
+    outline:none;   
+}
+input {
+    height:35px;
+    background-color: #2227;
+    border:2px solid yellowgreen;
+    border-radius:15px;
+    padding:0px 5px;
+}
+.name {
+    width:40%;
+    margin:20px auto;
+    display:inline;
+}
+#mail {
+    width:83%;
+    margin:20px auto;
+}
+.password {
+    width:40%;
+    margin:20px auto;
+    display:inline;
+}
+#su-btn {
+    width:max-content;
+    padding:0px 30px;
+    display:block;  
+    margin:auto;
+}
+#su-btn:hover {
+    color:white;
+    background-color:grey;
+}
